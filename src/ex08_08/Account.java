@@ -43,9 +43,6 @@ public class Account {
     public void withdraw(int money) {
         balance -= money; //balance= balance - money
     }
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+
 }
 

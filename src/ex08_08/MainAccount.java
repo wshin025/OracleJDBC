@@ -18,7 +18,7 @@ public class MainAccount {
 
 //        처음통장 개설했을때
 
-        Account account = new Account(accnumber, name, pwd, balance);
+        Account account = new Account(accnumber, balance, name, pwd );
         System.out.println(account);
 
 //        통장에 2600000원 입금 후 잔액표기
@@ -27,8 +27,8 @@ public class MainAccount {
         account.deposit(deposit);
 //      통장에서 200000원 출금 후 잔액표기
         System.out.printf("*출금할 금액 : ");
-        int withdrow = scanner2.nextInt();
-        account.withdraw(withdrow);
+        int withdraw = scanner2.nextInt();
+        account.withdraw(withdraw);
 
         System.out.printf("%s님의 통장 잔액은  %d 입니다. \n",account.getName(),account.getBalance());
         scanner1.close();
