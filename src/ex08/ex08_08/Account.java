@@ -1,4 +1,4 @@
-package ex08_08;
+package ex08.ex08_08;
 
 public class Account {
     private int balance;

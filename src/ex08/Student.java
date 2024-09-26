@@ -1,4 +1,4 @@
-package ex08_05;
+package ex08;
 
 class Student {
 // 공유 (static)영역 할당 : 클래스 변수

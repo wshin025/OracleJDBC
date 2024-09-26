@@ -1,4 +1,4 @@
-package ex08_06;
+package ex08.ex08_06;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ex08_06;
+package ex08.ex08_06;
 
 public class MyMath {
 // 공유영역에 할댕 되는 메소트 : 클래스 메소드

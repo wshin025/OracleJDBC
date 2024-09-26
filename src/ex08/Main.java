@@ -1,6 +1,4 @@
-package ex08_05;
-
-import ex08_05.Student;
+package ex08;
 
 public class Main {
     public static void main(String[] args) {
